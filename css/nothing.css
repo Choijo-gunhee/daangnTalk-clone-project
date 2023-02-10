@@ -1,0 +1,31 @@
+.nothing-header {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.nothing-header h1 {
+  font-size: 35px;
+  margin: 20px;
+}
+
+.nothing-header p {
+  line-height: 30px;
+}
+
+.nothing-header input {
+  margin: 40px;
+  padding: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  border-right: 3px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 15%;
+  background-color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+.nothing-header input:hover {
+  background-color: var(--mainColor);
+}
