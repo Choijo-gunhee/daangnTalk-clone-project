@@ -2,11 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 20px 20px;
+  margin: 25px 10px 10px 10px;
+  padding: 15px 20px;
   box-sizing: border-box;
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
-  width: 100%;
+  width: calc(100% - 20px);
   position: fixed;
+  border-radius: 30px;
+  background-color: white;
 }
 
 .screen-header_text {
@@ -17,10 +20,40 @@
 
 .screen-header_text > h1 {
   margin-right: 10px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .screen-header_icons span {
   margin-left: 25px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+@keyframes movingLog {
+  0% {
+    transform: translateY(0);
+  }
+  5% {
+    transform: translateY(-10px);
+  }
+  10%,
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.screen-header_log {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  animation: movingLog 3s ease-in-out infinite;
+}
+
+.screen-header_notification {
+  position: absolute;
+  bottom: 48px;
+  right: 15px;
+  background-color: var(--mainColor);
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
 }
