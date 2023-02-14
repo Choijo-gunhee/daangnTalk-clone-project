@@ -1,0 +1,26 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px 20px;
+  box-sizing: border-box;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  position: fixed;
+}
+
+.screen-header_text {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.screen-header_text > h1 {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.screen-header_icons span {
+  margin-left: 25px;
+  color: rgba(0, 0, 0, 0.6);
+}

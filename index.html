@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Daangn Talk</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/mainStyle.css" />
   </head>
   <body>
     <div class="status-bar">
@@ -33,9 +33,24 @@
         로그인 해주세요!
       </p>
     </header>
-    <form class="login-form">
-      <input type="text" placeholder="Email or phone number" required />
-      <input type="password" placeholder="Password" required minlength="8" />
+    <form class="login-form" action="friends.html" method="get">
+      <input
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+        required
+        oninvalid="this.setCustomValidity('*필독* 아무거나 작성해주세요!(본 페이지는 정보보호가 안됩니다. 아무거나 써주세요!)')"
+        oninput="this.setCustomValidity('')"
+      />
+      <input
+        name="password"
+        type="password"
+        placeholder="Password"
+        required
+        minlength="8"
+        oninvalid="this.setCustomValidity('*필독* 본 페이지는 데모버전으로 정보보호가 안됩니다. 진짜 비밀번호 말고 아무거나 써주세요!')"
+        oninput="this.setCustomValidity('')"
+      />
       <input type="submit" value="Log In" />
       <a href="nothing.html">당근톡 계정 찾기 or 비밀번호 찾기</a>
     </form>
