@@ -11,3 +11,25 @@
   border-radius: 30px;
   border-top: 0.5px solid rgba(0, 0, 0, 0.2);
 }
+
+.friends-list {
+  background-color: white;
+  width: calc(100% - 20px);
+  height: 370px;
+  margin: 10px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  border-top: 0;
+}
+
+.friends-list_text {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.give_padding {
+  margin-top: 20px;
+}
