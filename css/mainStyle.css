@@ -13,8 +13,11 @@
 @import 'screens/nothing.css';
 @import 'screens/login.css';
 @import 'screens/friends.css';
+@import 'screens/chat.css';
+@import 'screens/trading.css';
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
   font-family: 'Open Sans', sans-serif;
+  background-color: rgba(246, 113, 37, 0.05);
 }

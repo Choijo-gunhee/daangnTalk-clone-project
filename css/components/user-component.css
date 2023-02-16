@@ -20,6 +20,7 @@
   color: rgba(0, 0, 0, 0.4);
   margin-top: 10px;
   font-size: 13px;
+  position: relative;
 }
 
 .user-component_imgSmall {
@@ -28,9 +29,24 @@
 }
 
 .user-component_nameSmall {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .user-component_messageSmall {
-  font-size: 12px;
+  font-size: 11px;
+}
+
+.user-component_imgMedium {
+  width: 55px;
+  height: 55px;
+}
+
+.user-component_nameMedium {
+  font-size: 18.5px;
+}
+
+.user-component_messageMedium {
+  margin-top: 5px;
+  height: 20px;
+  font-size: 14px;
 }

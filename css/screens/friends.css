@@ -15,7 +15,7 @@
 .friends-list {
   background-color: white;
   width: calc(100% - 20px);
-  height: 370px;
+  min-height: 370px;
   margin: 10px;
   padding: 20px 20px;
   box-sizing: border-box;

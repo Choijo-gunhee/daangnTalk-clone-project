@@ -1,0 +1,130 @@
+.trading {
+  padding-top: 100px;
+}
+
+.trading-list {
+  background-color: white;
+  width: calc(100% - 20px);
+  height: 480px;
+  margin: 10px;
+  margin-top: 0;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  border-top: 0;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.trading-list_text {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.trading-list_row {
+  display: flex;
+  position: relative;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+}
+
+.trading-list_row_photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.trading-list_row_text span:nth-child(1) {
+  font-size: 17px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.trading-list_row_text span:nth-child(2) {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.divider + span {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.trading-list_row_text .divider {
+  width: 1px;
+  height: 12px;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+
+.trading-list_icons {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+}
+
+.trading-list_row_price {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.trading-list_more {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.3);
+  width: calc(100%-20px);
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px 10px 20px 10px;
+  border-top: 0.1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.1);
+}
+
+.trading-car {
+  margin: 0;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.trading-car_img {
+  display: inline-flex;
+  margin-right: 30px;
+}
+
+.trading-car_column_photo {
+  margin: 0;
+}
+
+.trading-car_column_text span {
+  display: block;
+  margin: 10px;
+}
+
+.trading-car_column_text span:nth-child(1) {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.trading-car_column_text span:nth-child(2) {
+  font-size: 15px;
+}
+
+.trading-car_column_text span:nth-child(3) {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.trading-car_column_text span:nth-child(4) {
+  font-size: 13px;
+  color: skyblue;
+}
