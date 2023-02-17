@@ -1,1 +1,153 @@
-this is neighbor site
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neighbor - Daangn Talk</title>
+    <link rel="stylesheet" href="css/mainStyle.css" />
+  </head>
+  <body>
+    <!--phone status bar -->
+    <div class="status-bar">
+      <div class="status-bar_column">
+        <span>TossMobile</span>
+        <i class="fa-solid fa-wifi fa-sm"></i>
+      </div>
+      <div class="status-bar_column">
+        <span>05:14</span>
+      </div>
+      <div class="status-bar_column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt-lightning fa-sm"></i>
+      </div>
+    </div>
+
+    <!--header bar -->
+    <header class="screen-header">
+      <div class="screen-header_text">
+        <img class="screen-header_log" src="img/daangn_log.ico" />
+        <h1>서초동</h1>
+        <span><i class="fa-solid fa-chevron-down"></i></span>
+      </div>
+      <div class="screen-header_icons">
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <span><i class="fa-solid fa-bars"></i></span>
+        <span>
+          <i class="fa-regular fa-bell"></i>
+          <div class="screen-header_notification"></div>
+        </span>
+      </div>
+    </header>
+
+    <!--trading section-->
+    <main class="main">
+      <div class="main-list">
+        <!--주변의 이웃-->
+        <h2 class="main-list_text">당근인연</h2>
+        <h5 class="main-list_description">근처 인연들의 소식을 들어보세요</h5>
+        <section class="neighbor-sns">
+          <!--sns1-->
+          <article class="neighbor-sns_article">
+            <img src="img/lot.jpg" class="neighbor-sns_img" />
+            <h3>롯데백화점 전시회 예쁘네~</h3>
+            <div class="sns_subtitle">
+              <span class="sns_subtitle_text">잠실 6동</span>
+              <div class="divider"></div>
+              <span class="sns_subtitle_text">소금이형</span>
+            </div>
+            <p class="sns-text">
+              오늘 친구랑 잠실에서 만나서 저녁 먹고 롯데백화점 갔다가 우연히
+              전시회를 발견함!
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.8032543886716!2d127.09815792739391!3d37.512558239608836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca50a915f665b%3A0xabeb10cd5efdfce2!2z66Gv642w7JuU65Oc7YOA7JuM!5e0!3m2!1sko!2skr!4v1676609053651!5m2!1sko!2skr"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="sns-map"
+            ></iframe>
+          </article>
+
+          <!--sns2-->
+          <article class="neighbor-sns_article">
+            <img src="img/myBro2.jpg" class="neighbor-sns_img" />
+            <h3>소금이랑 산책 중!</h3>
+            <div class="sns_subtitle">
+              <span class="sns_subtitle_text">목동</span>
+              <div class="divider"></div>
+              <span class="sns_subtitle_text">소금이형</span>
+            </div>
+            <p class="sns-text">
+              미용하고 소금이랑 공원에서 산책중이야! 같이 산책할 사람 있어??
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.6604808672964!2d126.97262231536192!3d37.58661183073576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca39b2d86d565%3A0xb7129b0e367b5223!2z7LKt7JmA64yAIOq0gOyggA!5e0!3m2!1sko!2skr!4v1676609658432!5m2!1sko!2skr"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="sns-map"
+            ></iframe>
+          </article>
+        </section>
+
+        <span class="trading-list_more">더보기</span>
+      </div>
+    </main>
+
+    <!--navigation bar -->
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_button">
+          <a class="nav_link" href="friends.html">
+            <i class="fa-solid fa-people-group fa-lg"></i>
+            <span class="nav_description">친구</span>
+          </a>
+        </li>
+        <li class="nav_button">
+          <a class="nav_link" href="chat.html">
+            <i class="fa-regular fa-comment fa-lg"></i>
+            <span class="nav_description">채팅</span>
+            <span class="nav_notification">1</span>
+          </a>
+        </li>
+        <li class="nav_button">
+          <a class="nav_link" href="trading.html">
+            <i class="fa-regular fa-handshake fa-lg"></i>
+            <span class="nav_description">당근마켓</span>
+          </a>
+        </li>
+        <li class="nav_button">
+          <a class="nav_link" href="neighbor.html">
+            <i
+              class="fa-solid fa-map-location-dot fa-lg"
+              style="color: black"
+            ></i>
+            <span class="nav_description">동네생활</span>
+          </a>
+        </li>
+        <li class="nav_button">
+          <a class="nav_link" href="setting.html">
+            <i class="fa-solid fa-ellipsis fa-lg"></i>
+            <span class="nav_description">나의 당근</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span
+        >화면이 너무 큽니다! <br />
+        화면을 줄여주세요</span
+      >
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/26e77b1aa6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

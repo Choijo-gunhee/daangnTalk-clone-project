@@ -1,0 +1,84 @@
+.setting-main {
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+.setting-pay {
+  width: calc(100%-20%);
+  border: 0.2px solid rgba(0, 0, 0, 0.1);
+  margin: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.pay-log {
+  display: inline-flex;
+  align-items: center;
+}
+
+.pay-log_img {
+  width: 25px;
+  height: 25px;
+}
+
+.pay-log_text {
+  font-size: 20px;
+  color: var(--mainColor);
+  font-weight: bold;
+}
+
+.pay-log_money {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.pay-icons {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.pay-log_for_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.flex_for_pay_box {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.pay-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+}
+
+.Box-icon {
+  margin: 10px;
+}
+
+.setting-menu {
+  margin: 20px 10px;
+  padding-bottom: 5px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.setting-menu_title {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.setting-menu_sub {
+  display: flex;
+  margin: 20px 0;
+  letter-spacing: 1px;
+  align-items: center;
+}

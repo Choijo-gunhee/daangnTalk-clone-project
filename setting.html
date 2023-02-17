@@ -1,1 +1,127 @@
-this is setting site
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Setting - Daangn Talk</title>
+    <link rel="stylesheet" href="css/mainStyle.css" />
+  </head>
+  <body>
+    <!--phone status bar -->
+    <div class="status-bar">
+      <div class="status-bar_column">
+        <span>TossMobile</span>
+        <i class="fa-solid fa-wifi fa-sm"></i>
+      </div>
+      <div class="status-bar_column">
+        <span>05:14</span>
+      </div>
+      <div class="status-bar_column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt-lightning fa-sm"></i>
+      </div>
+    </div>
+
+    <!--setting-->
+    <main class="setting-main">
+      <!--당근 페이-->
+      <div class="setting-pay">
+        <div class="pay-log_for_flex">
+          <div class="pay-log">
+            <img src="/img/daanggnPay.png" class="pay-log_img" />
+            <span class="pay-log_text">pay</span>
+            <span class="pay-log_money">100,000,000,000원</span>
+          </div>
+          <i class="fa-solid fa-chevron-right pay-icons"></i>
+        </div>
+        <div class="flex_for_pay_box">
+          <div class="pay-box">
+            <i class="fa-solid fa-plus Box-icon"></i>충전
+          </div>
+          <div class="pay-box">
+            <i class="fa-solid fa-won-sign Box-icon"></i>계좌송금
+          </div>
+        </div>
+      </div>
+
+      <!--메뉴1-->
+      <div class="setting-menu">
+        <span class="setting-menu_title">나의 거래</span>
+        <span class="setting-menu_sub">
+          <i class="fa-regular fa-heart fa-lg Box-icon"></i>관심목록
+        </span>
+        <span class="setting-menu_sub">
+          <i class="fa-regular fa-rectangle-list Box-icon"></i>판매내역
+        </span>
+        <span class="setting-menu_sub">
+          <i class="fa-solid fa-bag-shopping Box-icon"></i>구매내역
+        </span>
+        <span class="setting-menu_sub">
+          <i class="fa-solid fa-book Box-icon"></i>중고거래 가계부
+        </span>
+      </div>
+
+      <!--메뉴2-->
+      <div class="setting-menu">
+        <span class="setting-menu_title">나의 동네생활</span>
+        <span class="setting-menu_sub">
+          <i class="fa-solid fa-pencil Box-icon"></i>동네생활 글/댓글
+        </span>
+        <span class="setting-menu_sub">
+          <i class="fa-solid fa-shop Box-icon"></i>내 단골 가게
+        </span>
+      </div>
+    </main>
+
+    <!--navigation bar -->
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_button">
+          <a class="nav_link" href="friends.html">
+            <i class="fa-solid fa-people-group fa-lg"></i>
+            <span class="nav_description">친구</span>
+          </a>
+        </li>
+        <li class="nav_button">
+          <a class="nav_link" href="chat.html">
+            <i class="fa-regular fa-comment fa-lg"></i>
+            <span class="nav_description">채팅</span>
+            <span class="nav_notification">1</span>
+          </a>
+        </li>
+        <li class="nav_button">
+          <a class="nav_link" href="trading.html">
+            <i class="fa-regular fa-handshake fa-lg"></i>
+            <span class="nav_description">당근마켓</span>
+          </a>
+        </li>
+        <li class="nav_button">
+          <a class="nav_link" href="neighbor.html">
+            <i class="fa-solid fa-map-location-dot fa-lg"></i>
+            <span class="nav_description">동네생활</span>
+          </a>
+        </li>
+        <li class="nav_button">
+          <a class="nav_link" href="setting.html">
+            <i class="fa-solid fa-ellipsis fa-lg" style="color: black"></i>
+            <span class="nav_description">나의 당근</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span
+        >화면이 너무 큽니다! <br />
+        화면을 줄여주세요</span
+      >
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/26e77b1aa6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

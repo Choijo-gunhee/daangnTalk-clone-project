@@ -9,7 +9,7 @@
   padding: 20px 20px;
   box-sizing: border-box;
   border-radius: 30px;
-  border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
 }
 
 .friends-list {
@@ -32,4 +32,68 @@
 
 .give_padding {
   margin-top: 20px;
+}
+
+@keyframes hiddenSplash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: hiddenSplash 0.5s ease-in-out forwards;
+  animation-delay: 2.5s;
+}
+
+.splash-screen_text {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 10px;
+}
+
+@keyframes loadingMotion {
+  20% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.7);
+  }
+  80%,
+  100% {
+    transform: scale(1);
+  }
+}
+
+.loading {
+  width: 10px;
+  height: 10px;
+  background-color: var(--mainColor);
+  margin: 30px 5px;
+  border-radius: 30px;
+  display: inline-block;
+  animation: loadingMotion 1s ease-in-out infinite;
+}
+
+.loading:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.loading:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.loading:nth-child(3) {
+  animation-delay: 0.3s;
 }

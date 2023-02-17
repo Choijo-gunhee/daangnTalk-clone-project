@@ -8,6 +8,7 @@
 @import 'components/nav-bar.css';
 @import 'components/screen-header.css';
 @import 'components/user-component.css';
+@import 'components/no-mobile.css';
 
 /* Screens */
 @import 'screens/nothing.css';
@@ -15,9 +16,11 @@
 @import 'screens/friends.css';
 @import 'screens/chat.css';
 @import 'screens/trading.css';
+@import 'screens/neighbor.css';
+@import 'screens/setting.css';
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
   font-family: 'Open Sans', sans-serif;
-  background-color: rgba(246, 113, 37, 0.05);
+  /* background-color: rgba(246, 113, 37, 0.05); */
 }
